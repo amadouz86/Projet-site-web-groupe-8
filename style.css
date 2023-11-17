@@ -1,362 +1,92 @@
-.page-index {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="votre-fichier.css">
+  <title>Votre Page</title>
+</head>
+<body>
 
-.page-index .div {
-  background-color: #ffffff;
-  height: 1985px;
-  overflow: hidden;
-  position: relative;
-  width: 1380px;
-}
+  <div class="page-index">
+    <div class="div">
+      <div class="overlap-group"></div>
+      <div class="rectangle"></div>
+      <p class="tel">Votre numéro de téléphone</p>
+      <p class="text-wrapper">Votre texte ici</p>
+      <div class="img"></div>
+      <div class="rectangle-2"></div>
+      <div class="rectangle-3"></div>
+      <div class="rectangle-4"></div>
+      <div class="rectangle-5"></div>
+      <div class="rectangle-6"></div>
+      <p class="text-wrapper-2">Texte 2 ici</p>
+      <p class="text-wrapper-3">Texte 3 ici</p>
+      <p class="text-wrapper-4">Texte 4 ici</p>
+      <div class="group">
+        <div class="icon-social-twitter"></div>
+      </div>
+      <div class="overlap"></div>
+      <p class="text-wrapper-5">Texte 5 ici</p>
+      <p class="p">Paragraphe ici</p>
+      <p class="bienvenue-la-galerie">Bienvenue à la galerie</p>
+      <p class="monsieur-dechewsky">Monsieur Dechewsky</p>
+      <div class="rectangle-7"></div>
+      <p class="notre-catalogue-est">Notre catalogue est</p>
+      <p class="DEDAL-DES-COULEURS">DEDAL DES COULEURS</p>
+      <div class="oeuvre"></div>
+      <div class="oeuvre-2"></div>
+      <div class="oeuvre-3"></div>
+      <div class="oeuvre-4"></div>
+      <div class="oeuvre-5"></div>
+      <div class="ooeuvre"></div>
+      <p class="text-wrapper-6">Texte 6 ici</p>
+      <div class="logo"></div>
+      <div class="rectangle-8"></div>
+    </div>
+  </div>
 
-.page-index .overlap-group {
-  background-image: url(./pexels-photo-1269968-1.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 1985px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1380px;
-}
+  <div class="catalogue">
+    <div class="div">
+      <div class="overlap"></div>
+      <p class="text-wrapper">Texte ici</p>
+      <div class="rectangle"></div>
+      <div class="img"></div>
+      <div class="rectangle-2"></div>
+      <div class="rectangle-3"></div>
+      <div class="rectangle-4"></div>
+      <div class="rectangle-5"></div>
+      <div class="rectangle-6"></div>
+      <div class="rectangle-7"></div>
+      <div class="rectangle-8"></div>
+      <div class="rectangle-9"></div>
+      <div class="overlap-group"></div>
+      <p class="tel">Numéro de téléphone</p>
+      <p class="text-wrapper-2">Texte 2 ici</p>
+      <p class="DEDAL-DES-COULEURS">DEDAL DES COULEURS</p>
+    </div>
+  </div>
 
-.page-index .rectangle {
-  height: 30px;
-  left: 976px;
-  object-fit: cover;
-  position: absolute;
-  top: 1890px;
-  width: 32px;
-}
+  <div class="contact">
+    <div class="overlap-group-wrapper">
+      <div class="overlap-group"></div>
+      <div class="overlap"></div>
+      <p class="text-wrapper">Texte ici</p>
+      <div class="div">
+        <div class="rectangle"></div>
+        <p class="tel">Numéro de téléphone</p>
+        <p class="DEDAL-DES-COULEURS">DEDAL DES COULEURS</p>
+      </div>
+      <div class="div-wrapper">
+        <p class="text-wrapper-2">Texte 2 ici</p>
+        <div class="overlap-2"></div>
+        <p class="text-wrapper-3">Texte 3 ici</p>
+        <div class="overlap-3"></div>
+        <div class="overlap-4"></div>
+        <p class="text-wrapper-4">Texte 4 ici</p>
+      </div>
+    </div>
+  </div>
 
-.page-index .tel {
-  color: #000000;
-  font-family: "Almendra-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 595px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 1848px;
-  width: 249px;
-}
-
-.page-index .text-wrapper {
-  color: #000000;
-  font-family: "Almendra-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 1027px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 1893px;
-  width: 249px;
-}
-
-.page-index .img {
-  height: 116px;
-  left: 375px;
-  object-fit: cover;
-  position: absolute;
-  top: 942px;
-  width: 121px;
-}
-
-.page-index .rectangle-2 {
-  height: 116px;
-  left: 224px;
-  object-fit: cover;
-  position: absolute;
-  top: 942px;
-  width: 121px;
-}
-
-.page-index .rectangle-3 {
-  height: 116px;
-  left: 981px;
-  object-fit: cover;
-  position: absolute;
-  top: 942px;
-  width: 121px;
-}
-
-.page-index .rectangle-4 {
-  height: 116px;
-  left: 829px;
-  object-fit: cover;
-  position: absolute;
-  top: 942px;
-  width: 121px;
-}
-
-.page-index .rectangle-5 {
-  height: 116px;
-  left: 678px;
-  object-fit: cover;
-  position: absolute;
-  top: 942px;
-  width: 121px;
-}
-
-.page-index .rectangle-6 {
-  height: 116px;
-  left: 527px;
-  object-fit: cover;
-  position: absolute;
-  top: 942px;
-  width: 121px;
-}
-
-.page-index .text-wrapper-2 {
-  color: #000000;
-  font-family: "Inter-Black", Helvetica;
-  font-size: 16px;
-  font-weight: 900;
-  left: 863px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 20px;
-  width: 207px;
-}
-
-.page-index .text-wrapper-3 {
-  color: #000000;
-  font-family: "Inter-Black", Helvetica;
-  font-size: 16px;
-  font-weight: 900;
-  left: 644px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 20px;
-  width: 136px;
-}
-
-.page-index .text-wrapper-4 {
-  color: #000000;
-  font-family: "Inter-Black", Helvetica;
-  font-size: 16px;
-  font-weight: 900;
-  left: 373px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 20px;
-  width: 221px;
-}
-
-.page-index .group {
-  height: 25px;
-  left: 1169px;
-  position: absolute;
-  top: 17px;
-  width: 33px;
-}
-
-.page-index .icon-social-twitter {
-  height: 25px;
-  left: 1234px;
-  position: absolute;
-  top: 18px;
-  width: 34px;
-}
-
-.page-index .overlap {
-  background-image: url(./rectangle-7.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 310px;
-  left: 125px;
-  position: absolute;
-  top: 75px;
-  width: 1077px;
-}
-
-.page-index .text-wrapper-5 {
-  color: #000000;
-  font-family: "Inter-Medium", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 445px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 227px;
-  white-space: nowrap;
-  width: 549px;
-}
-
-.page-index .p {
-  color: #000000;
-  font-family: "Inter-Medium", Helvetica;
-  font-size: 36px;
-  font-weight: 500;
-  left: 273px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 151px;
-  white-space: nowrap;
-  width: 709px;
-}
-
-.page-index .bienvenue-la-galerie {
-  color: #000000;
-  font-family: "Almendra-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 128px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 395px;
-  width: 1077px;
-}
-
-.page-index .monsieur-dechewsky {
-  color: #000000;
-  font-family: "Almendra-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 690px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 455px;
-  width: 516px;
-}
-
-.page-index .rectangle-7 {
-  height: 196px;
-  left: 128px;
-  object-fit: cover;
-  position: absolute;
-  top: 518px;
-  width: 535px;
-}
-
-.page-index .notre-catalogue-est {
-  color: #000000;
-  font-family: "Almendra-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 128px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 790px;
-  width: 1077px;
-}
-
-.page-index .DEDAL-DES-COULEURS {
-  color: #000000;
-  font-family: "Almendra-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 159px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 1848px;
-  width: 288px;
-}
-
-.page-index .oeuvre {
-  height: 238px;
-  left: 159px;
-  object-fit: cover;
-  position: absolute;
-  top: 1110px;
-  width: 203px;
-}
-
-.page-index .oeuvre-2 {
-  height: 238px;
-  left: 971px;
-  object-fit: cover;
-  position: absolute;
-  top: 1454px;
-  width: 203px;
-}
-
-.page-index .oeuvre-3 {
-  height: 238px;
-  left: 565px;
-  object-fit: cover;
-  position: absolute;
-  top: 1454px;
-  width: 203px;
-}
-
-.page-index .oeuvre-4 {
-  height: 238px;
-  left: 159px;
-  object-fit: cover;
-  position: absolute;
-  top: 1454px;
-  width: 203px;
-}
-
-.page-index .oeuvre-5 {
-  height: 238px;
-  left: 971px;
-  object-fit: cover;
-  position: absolute;
-  top: 1110px;
-  width: 203px;
-}
-
-.page-index .ooeuvre {
-  height: 238px;
-  left: 565px;
-  object-fit: cover;
-  position: absolute;
-  top: 1110px;
-  width: 203px;
-}
-
-.page-index .text-wrapper-6 {
-  color: #000000;
-  font-family: "Inter-Black", Helvetica;
-  font-size: 20px;
-  font-weight: 900;
-  left: 569px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 755px;
-  width: 234px;
-}
-
-.page-index .logo {
-  height: 57px;
-  left: 128px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 128px;
-}
-
-.page-index .rectangle-8 {
-  height: 78px;
-  left: 10px;
-  object-fit: cover;
-  position: absolute;
-  top: 829px;
-  width: 156px;
-}
+</body>
+</html>
