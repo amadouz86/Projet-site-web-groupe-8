@@ -1,92 +1,741 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="votre-fichier.css">
-  <title>DEDAL DES COULEURS</title>
-</head>
-<body>
+/* style.css */
 
-  <div class="page-index">
-    <div class="div">
-      <div class="overlap-group"></div>
-      <div class="rectangle"></div>
-      <p class="tel">Votre numéro de téléphone</p>
-      <p class="text-wrapper">Votre texte ici</p>
-      <div class="img"></div>
-      <div class="rectangle-2"></div>
-      <div class="rectangle-3"></div>
-      <div class="rectangle-4"></div>
-      <div class="rectangle-5"></div>
-      <div class="rectangle-6"></div>
-      <p class="text-wrapper-2">Texte 2 ici</p>
-      <p class="text-wrapper-3">Texte 3 ici</p>
-      <p class="text-wrapper-4">Texte 4 ici</p>
-      <div class="group">
-        <div class="icon-social-twitter"></div>
-      </div>
-      <div class="overlap"></div>
-      <p class="text-wrapper-5">Texte 5 ici</p>
-      <p class="p">Paragraphe ici</p>
-      <p class="bienvenue-la-galerie">Bienvenue à la galerie</p>
-      <p class="monsieur-dechewsky">Monsieur Dechewsky</p>
-      <div class="rectangle-7"></div>
-      <p class="notre-catalogue-est">Notre catalogue est</p>
-      <p class="DEDAL-DES-COULEURS">DEDAL DES COULEURS</p>
-      <div class="oeuvre"></div>
-      <div class="oeuvre-2"></div>
-      <div class="oeuvre-3"></div>
-      <div class="oeuvre-4"></div>
-      <div class="oeuvre-5"></div>
-      <div class="ooeuvre"></div>
-      <p class="text-wrapper-6">Texte 6 ici</p>
-      <div class="logo"></div>
-      <div class="rectangle-8"></div>
-    </div>
-  </div>
+.page-index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
 
-  <div class="catalogue">
-    <div class="div">
-      <div class="overlap"></div>
-      <p class="text-wrapper">Texte ici</p>
-      <div class="rectangle"></div>
-      <div class="img"></div>
-      <div class="rectangle-2"></div>
-      <div class="rectangle-3"></div>
-      <div class="rectangle-4"></div>
-      <div class="rectangle-5"></div>
-      <div class="rectangle-6"></div>
-      <div class="rectangle-7"></div>
-      <div class="rectangle-8"></div>
-      <div class="rectangle-9"></div>
-      <div class="overlap-group"></div>
-      <p class="tel">Numéro de téléphone</p>
-      <p class="text-wrapper-2">Texte 2 ici</p>
-      <p class="DEDAL-DES-COULEURS">DEDAL DES COULEURS</p>
-    </div>
-  </div>
+.page-index .div {
+    background-color: #ffffff;
 
-  <div class="contact">
-    <div class="overlap-group-wrapper">
-      <div class="overlap-group"></div>
-      <div class="overlap"></div>
-      <p class="text-wrapper">Texte ici</p>
-      <div class="div">
-        <div class="rectangle"></div>
-        <p class="tel">Numéro de téléphone</p>
-        <p class="DEDAL-DES-COULEURS">DEDAL DES COULEURS</p>
-      </div>
-      <div class="div-wrapper">
-        <p class="text-wrapper-2">Texte 2 ici</p>
-        <div class="overlap-2"></div>
-        <p class="text-wrapper-3">Texte 3 ici</p>
-        <div class="overlap-3"></div>
-        <div class="overlap-4"></div>
-        <p class="text-wrapper-4">Texte 4 ici</p>
-      </div>
-    </div>
-  </div>
+    width: 1397px;
+    height: 2129px;
+    position: relative;
+}
 
-</body>
-</html>
+.page-index .overlap-group {
+    position: absolute;
+    width: 1397px;
+    height: 2010px;
+    top: 0;
+    left: 0;
+}
+
+.page-index .pexels-photo {
+    position: absolute;
+    width: 1397px;
+    height: 1985px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.page-index .rectangle {
+    width: 32px;
+    height: 30px;
+    top: 1962px;
+    left: 988px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .tel {
+    position: absolute;
+    width: 252px;
+    top: 1920px;
+    left: 602px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .text-wrapper {
+    position: absolute;
+    width: 252px;
+    top: 1965px;
+    left: 1040px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .img {
+    width: 122px;
+    height: 116px;
+    top: 1014px;
+    left: 380px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .rectangle-2 {
+    width: 122px;
+    height: 116px;
+    top: 1014px;
+    left: 227px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .rectangle-3 {
+    width: 122px;
+    height: 116px;
+    top: 1014px;
+    left: 993px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .rectangle-4 {
+    width: 122px;
+    height: 116px;
+    top: 1014px;
+    left: 840px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .rectangle-5 {
+    width: 122px;
+    height: 116px;
+    top: 1014px;
+    left: 686px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .rectangle-6 {
+    width: 122px;
+    height: 116px;
+    top: 1014px;
+    left: 533px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .text-wrapper-2 {
+    position: absolute;
+    width: 209px;
+    top: 92px;
+    left: 873px;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .text-wrapper-3 {
+    position: absolute;
+    width: 137px;
+    top: 92px;
+    left: 652px;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .text-wrapper-4 {
+    position: absolute;
+    width: 224px;
+    top: 92px;
+    left: 378px;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .group {
+    position: absolute;
+    width: 33px;
+    height: 25px;
+    top: 89px;
+    left: 1184px;
+}
+
+.page-index .icon-social-twitter {
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    top: 90px;
+    left: 1250px;
+}
+
+.page-index .rectangle-7 {
+    width: 1090px;
+    height: 310px;
+    top: 147px;
+    left: 126px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .bienvenue-la-galerie {
+    position: absolute;
+    width: 1090px;
+    top: 467px;
+    left: 130px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .text-wrapper-5 {
+    position: absolute;
+    width: 556px;
+    top: 324px;
+    left: 577px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.page-index .p {
+    position: absolute;
+    width: 709px;
+    top: 242px;
+    left: 407px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.page-index .monsieur-dechewsky {
+    position: absolute;
+    width: 522px;
+    top: 527px;
+    left: 698px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .rectangle-8 {
+    width: 541px;
+    height: 196px;
+    top: 590px;
+    left: 130px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page-index .notre-catalogue-est {
+    position: absolute;
+    width: 1090px;
+    top: 862px;
+    left: 130px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .DEDAL-DES-COULEURS {
+    position: absolute;
+    width: 291px;
+    top: 1920px;
+    left: 161px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .oeuvre {
+    top: 1182px;
+    left: 161px;
+    position: absolute;
+    width: 206px;
+    height: 238px;
+    object-fit: cover;
+}
+
+.page-index .oeuvre-2 {
+    top: 1526px;
+    left: 983px;
+    position: absolute;
+    width: 206px;
+    height: 238px;
+    object-fit: cover;
+}
+
+.page-index .oeuvre-3 {
+    top: 1526px;
+    left: 572px;
+    position: absolute;
+    width: 206px;
+    height: 238px;
+    object-fit: cover;
+}
+
+.page-index .oeuvre-4 {
+    top: 1526px;
+    left: 161px;
+    position: absolute;
+    width: 206px;
+    height: 238px;
+    object-fit: cover;
+}
+
+.page-index .oeuvre-5 {
+    top: 1182px;
+    left: 983px;
+    position: absolute;
+    width: 206px;
+    height: 238px;
+    object-fit: cover;
+}
+
+.page-index .ooeuvre {
+    position: absolute;
+    width: 206px;
+    height: 238px;
+    top: 1182px;
+    left: 572px;
+    object-fit: cover;
+}
+
+.page-index .text-wrapper-6 {
+    position: absolute;
+    width: 237px;
+    top: 827px;
+    left: 576px;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page-index .logo {
+    position: absolute;
+    width: 138px;
+    height: 75px;
+    top: 62px;
+    left: 126px;
+    object-fit: cover;
+}
+
+.page-index .rectangle-9 {
+    width: 156px;
+    height: 78px;
+    top: 901px;
+    left: -1311px;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+.catalogue {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.catalogue .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.catalogue .overlap {
+    position: absolute;
+    width: 1122px;
+    height: 198px;
+    top: 158px;
+    left: 159px;
+    background-image: url(./img/rectangle-17.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.catalogue .text-wrapper {
+    position: absolute;
+    width: 432px;
+    top: 76px;
+    left: 448px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.catalogue .rectangle {
+    width: 190px;
+    top: 399px;
+    left: 159px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .img {
+    width: 190px;
+    top: 399px;
+    left: 619px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-2 {
+    width: 202px;
+    top: 399px;
+    left: 1079px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-3 {
+    width: 190px;
+    top: 672px;
+    left: 1091px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-4 {
+    width: 190px;
+    top: 672px;
+    left: 861px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-5 {
+    width: 190px;
+    top: 399px;
+    left: 849px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-6 {
+    width: 190px;
+    top: 672px;
+    left: 631px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-7 {
+    width: 190px;
+    top: 672px;
+    left: 389px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-8 {
+    width: 190px;
+    top: 399px;
+    left: 389px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-9 {
+    width: 190px;
+    top: 672px;
+    left: 159px;
+    position: absolute;
+    height: 194px;
+    object-fit: cover;
+}
+
+.catalogue .rectangle-77 {
+    width: 1122px;
+    height: 200px;
+    top: 158px;
+    left: 159px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.catalogue .overlap-group {
+    position: absolute;
+    width: 1340px;
+    height: 123px;
+    top: 901px;
+    left: 0;
+    background-color: #fff5f5;
+}
+
+.catalogue .tel {
+    position: absolute;
+    width: 351px;
+    top: 15px;
+    left: 615px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.catalogue .text-wrapper-2 {
+    position: absolute;
+    width: 260px;
+    top: 60px;
+    left: 1067px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.catalogue .DEDAL-DES-COULEURS {
+    position: absolute;
+    width: 405px;
+    top: 15px;
+    left: 159px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+
+
+
+.contact {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1438px;
+    height: 1024px;
+}
+
+.contact .overlap-group {
+    position: relative;
+    width: 1382px;
+    height: 780px;
+    top: 122px;
+    left: 28px;
+    background-image: url(./images/image0-1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.contact .overlap {
+    position: absolute;
+    width: 262px;
+    height: 67px;
+    top: 702px;
+    left: 942px;
+    background-color: #fcf4f4;
+}
+
+.contact .text-wrapper {
+    position: absolute;
+    top: 22px;
+    left: 91px;
+    font-family: "Almendra-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact .div {
+    position: absolute;
+    width: 477px;
+    height: 601px;
+    top: 79px;
+    left: 44px;
+}
+
+.contact .rectangle {
+    position: absolute;
+    width: 477px;
+    height: 591px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.contact .tel {
+    position: absolute;
+    width: 319px;
+    top: 316px;
+    left: 35px;
+    font-family: "Almendra-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact .DEDAL-DES-COULEURS {
+    position: absolute;
+    width: 407px;
+    top: 115px;
+    left: 35px;
+    font-family: "Almendra-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact .div-wrapper {
+    position: absolute;
+    width: 533px;
+    height: 58px;
+    top: 109px;
+    left: 691px;
+    background-color: #fcf4f4;
+}
+
+.contact .text-wrapper-2 {
+    position: absolute;
+    top: 15px;
+    left: 11px;
+    font-family: "Almendra-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact .overlap-2 {
+    position: absolute;
+    width: 533px;
+    height: 58px;
+    top: 222px;
+    left: 691px;
+    background-color: #fcf4f4;
+}
+
+.contact .text-wrapper-3 {
+    position: absolute;
+    top: 17px;
+    left: 11px;
+    font-family: "Almendra-Bold", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.contact .overlap-3 {
+    position: absolute;
+    width: 533px;
+    height: 58px;
+    top: 338px;
+    left: 691px;
+    background-color: #fcf4f4;
+}
+
+.contact .overlap-4 {
+    position: absolute;
+    width: 533px;
+    height: 216px;
+    top: 454px;
+    left: 691px;
+    background-color: #fcf4f4;
+}
+
+.contact .text-wrapper-4 {
+    position: absolute;
+    top: 94px;
+    left: 212px;
+    font-family: "Almendra-Bold", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+
